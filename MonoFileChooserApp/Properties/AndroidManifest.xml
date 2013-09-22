@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+	<uses-sdk android:minSdkVersion="8" android:targetSdkVersion="14" />
+	<application>
+		<provider android:name="group.pals.android.lib.ui.filechooser.providers.localfile.LocalFileProvider" android:authorities="keepass2android.test.filechoosertest.android-filechooser.localfile" android:exported="false" />
+		<provider android:name="group.pals.android.lib.ui.filechooser.providers.history.HistoryProvider" android:authorities="keepass2android.test.filechoosertest.android-filechooser.history" android:exported="false" />
+		<provider android:name="group.pals.android.lib.ui.filechooser.providers.bookmark.BookmarkProvider" android:authorities="keepass2android.test.filechoosertest.android-filechooser.bookmark" android:exported="false" />
+		<activity android:name="group.pals.android.lib.ui.filechooser.FileChooserActivity" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:screenOrientation="user" android:theme="@style/Afc.Theme.Light" />
+		<activity android:name="group.pals.android.lib.ui.filechooser.FileChooserActivity_v7" android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:screenOrientation="user" android:theme="@style/Afc.Theme.Light" />
+
+
+	</application>
+</manifest>
